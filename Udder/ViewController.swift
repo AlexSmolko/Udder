@@ -27,5 +27,9 @@ class ViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         //
     }
+    override func validateValue(_ ioValue: AutoreleasingUnsafeMutablePointer<AnyObject?>, forKey inKey: String) throws {
+        //
+    }
 }
+
 
